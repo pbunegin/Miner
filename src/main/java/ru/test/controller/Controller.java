@@ -29,6 +29,7 @@ public class Controller {
 
     public void startNextLevel() {
         model.startNextLevel();
+        view = new View(this);
         view.init();
     }
 

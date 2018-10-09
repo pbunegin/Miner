@@ -22,9 +22,9 @@ public class View extends JFrame {
         field.setController(controller);
         field.setPreferredSize(new Dimension((getGameObjects().getUnits().length) * getGameObjects().getUnits()[0][0].getWidth()+1,
                 (getGameObjects().getUnits()[0].length) * getGameObjects().getUnits()[0][0].getHeight()+1));
-//        JPanel jPanel = new JPanel();
-//        jPanel.add(field);
-        add(field);
+        JPanel jPanel = new JPanel();
+        jPanel.add(field);
+        add(jPanel);
 
         JMenuBar menuBar = new JMenuBar();
         JMenu menu = new JMenu("Игра");
