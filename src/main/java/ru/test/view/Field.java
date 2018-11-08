@@ -8,6 +8,7 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+//create field
 public class Field extends JPanel {
     private View view;
     private Controller controller;
